@@ -31,7 +31,7 @@ client.on("messageCreate", async (message) => {
     if (message.channel.type === Discord.ChannelType.DM) return;     
   
     if (!message.content.toLowerCase().startsWith(prefix.toLowerCase())) return;
-  
+  .
     if(!message.content.startsWith(prefix)) return;
     const args = message.content.slice(prefix.length).trim().split(/ +/g);
   
